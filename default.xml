@@ -77,4 +77,11 @@
         path="util-linux"
         revision="master" />
 
+    <!-- man-db -->
+<project
+    name="man-db.git"
+    remote="savannah"
+    path="man-db"
+    revision="master" />
+    
 </manifest>
