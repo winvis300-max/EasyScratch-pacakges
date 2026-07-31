@@ -58,4 +58,10 @@
         path="util-linux"
         revision="master" />
 
+    <!-- LLVM + Clang -->
+    <project
+        name="llvm/llvm-project"
+        path="llvm-project"
+        revision="main" />
+
 </manifest>
