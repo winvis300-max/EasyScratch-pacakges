@@ -1,88 +1,182 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-    <!-- GitHub -->
-    <remote
-        name="github"
-        fetch="https://github.com/" />
-
-    <!-- GNU Savannah -->
-    <remote
-        name="savannah"
-        fetch="https://git.savannah.gnu.org/git/" />
-
-    <!-- Sourceware -->
-    <remote
-        name="sourceware"
-        fetch="git://sourceware.org/git/" />
-
-    <!-- GoogleSource -->
-    <remote
-        name="googlesource"
-        fetch="https://kernel.googlesource.com/pub/scm/utils/util-linux/" />
-
-    <!-- Varsayılan -->
-    <default
-        remote="github"
-        revision="main" />
-
-    <!-- sudo -->
+    <!-- Ncurses -->
     <project
-        name="sudo-project/sudo"
-        path="sudo" />
-
-    <!-- LLVM + Clang -->
-    <project
-        name="llvm/llvm-project"
-        path="llvm-project"
-        revision="main" />
-
-    <!-- GNU GRUB -->
-    <project
-        name="rhboot/grub2"
-        path="grub2"
+        name="mirror/ncurses"
+        path="ncurses"
         revision="master" />
 
-    <!-- shadow -->
+
+    <!-- GNU Readline -->
+    <project
+        name="readline.git"
+        remote="savannah"
+        path="readline"
+        revision="master" />
+
+
+    <!-- OpenSSL -->
+    <project
+        name="openssl/openssl"
+        path="openssl"
+        revision="master" />
+
+
+    <!-- CMake -->
+    <project
+        name="Kitware/CMake"
+        path="cmake"
+        revision="master" />
+
+
+    <!-- Ninja -->
+    <project
+        name="ninja-build/ninja"
+        path="ninja"
+        revision="master" />
+
+
+    <!-- Meson -->
+    <project
+        name="mesonbuild/meson"
+        path="meson"
+        revision="master" />
+
+
+    <!-- pkgconf -->
+    <project
+        name="pkgconf/pkgconf"
+        path="pkgconf"
+        revision="master" />
+
+
+    <!-- Python -->
+    <project
+        name="python/cpython"
+        path="python"
+        revision="main" />
+
+
+    <!-- GNU Autoconf -->
+    <project
+        name="autoconf.git"
+        remote="savannah"
+        path="autoconf"
+        revision="master" />
+
+
+    <!-- GNU Automake -->
+    <project
+        name="automake.git"
+        remote="savannah"
+        path="automake"
+        revision="master" />
+
+
+    <!-- GNU Libtool -->
+    <project
+        name="libtool.git"
+        remote="savannah"
+        path="libtool"
+        revision="master" />
+
+
+    <!-- GNU Gettext -->
+    <project
+        name="gettext.git"
+        remote="savannah"
+        path="gettext"
+        revision="master" />
+
+
+    <!-- GNU M4 -->
+    <project
+        name="m4.git"
+        remote="savannah"
+        path="m4"
+        revision="master" />
+
+
+    <!-- GNU Bison -->
+    <project
+        name="bison.git"
+        remote="savannah"
+        path="bison"
+        revision="master" />
+
+
+    <!-- Flex -->
+    <project
+        name="westes/flex"
+        path="flex"
+        revision="master" />
+
+
+    <!-- Patch -->
+    <project
+        name="mirror/patch"
+        path="patch"
+        revision="master" />
+
+
+    <!-- File -->
+    <project
+        name="file/file"
+        path="file"
+        revision="master" />
+
+
+    <!-- Bzip2 -->
+    <project
+        name="libarchive/bzip2"
+        path="bzip2"
+        revision="master" />
+
+
+    <!-- libarchive -->
+    <project
+        name="libarchive/libarchive"
+        path="libarchive"
+        revision="master" />
+
+
+    <!-- libcap -->
+    <project
+        name="flare/flare"
+        path="libcap"
+        revision="master" />
+
+
+    <!-- PCRE2 -->
+    <project
+        name="PCRE2Project/pcre2"
+        path="pcre2"
+        revision="master" />
+        <!-- shadow -->
     <project
         name="shadow-maint/shadow"
         path="shadow"
         revision="master" />
 
-    <!-- chimerautils -->
-    <project
-        name="chimera-linux/chimerautils"
-        path="chimerautils"
-        revision="master" />
 
-    <!-- glibc -->
+    <!-- sudo -->
     <project
-        name="glibc.git"
-        remote="sourceware"
-        path="glibc"
-        revision="master" />
+        name="sudo-project/sudo"
+        path="sudo"
+        revision="main" />
 
-    <!-- GNU nano -->
-    <project
-        name="nano.git"
-        remote="savannah"
-        path="nano"
-        revision="master" />
-
-    <!-- GNU Bash -->
-    <project
-        name="bash.git"
-        remote="savannah"
-        path="bash"
-        revision="master" />
 
     <!-- util-linux -->
     <project
-        name="util-linux"
-        remote="googlesource"
+        name="util-linux/util-linux"
         path="util-linux"
         revision="master" />
+
+
+    <!-- kmod -->
+    <project
+        name="kmod-project/kmod"
+        path="kmod"
+        revision="master" />
+
 
     <!-- man-db -->
     <project
@@ -91,24 +185,104 @@
         path="man-db"
         revision="master" />
 
-    <!-- GNU Binutils + GDB -->
-    <project
-        name="binutils-gdb.git"
-        remote="sourceware"
-        path="binutils-gdb"
-        revision="master" />
 
-    <!-- GNU Make -->
+    <!-- GNU Groff -->
     <project
-        name="make.git"
+        name="groff.git"
         remote="savannah"
-        path="make"
+        path="groff"
         revision="master" />
 
-    <!-- kmod -->
+
+    <!-- GDBM -->
     <project
-        name="kmod-project/kmod"
-        path="kmod"
+        name="gdbm.git"
+        remote="savannah"
+        path="gdbm"
         revision="master" />
+
+
+    <!-- libpipeline -->
+    <project
+        name="libpipeline.git"
+        remote="savannah"
+        path="libpipeline"
+        revision="master" />
+
+
+    <!-- libxcrypt -->
+    <project
+        name="besser82/libxcrypt"
+        path="libxcrypt"
+        revision="master" />
+
+
+    <!-- GNU Texinfo -->
+    <project
+        name="texinfo.git"
+        remote="savannah"
+        path="texinfo"
+        revision="master" />
+
+
+    <!-- GNU Wget -->
+    <project
+        name="wget.git"
+        remote="savannah"
+        path="wget"
+        revision="master" />
+
+
+    <!-- GNU Which -->
+    <project
+        name="which.git"
+        remote="savannah"
+        path="which"
+        revision="master" />
+
+
+    <!-- GNU Time -->
+    <project
+        name="time.git"
+        remote="savannah"
+        path="time"
+        revision="master" />
+
+
+    <!-- GNU Cpio -->
+    <project
+        name="cpio.git"
+        remote="savannah"
+        path="cpio"
+        revision="master" />
+
+
+    <!-- GNU Screen -->
+    <project
+        name="screen.git"
+        remote="savannah"
+        path="screen"
+        revision="master" />
+
+
+    <!-- GRUB bootloader -->
+    <project
+        name="grub"
+        remote="savannah"
+        path="grub"
+        revision="master" />
+        <!-- OpenRC init system -->
+    <project
+        name="OpenRC/openrc"
+        path="openrc"
+        revision="master" />
+
+
+    <!-- eudev (udev fork for non-systemd systems) -->
+    <project
+        name="eudev-project/eudev"
+        path="eudev"
+        revision="master" />
+
 
 </manifest>
