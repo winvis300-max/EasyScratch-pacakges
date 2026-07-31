@@ -89,5 +89,33 @@
     name="limine-bootloader/limine"
     path="limine"
     revision="trunk" />
+
+<!-- GNU Binutils -->
+<project
+    name="binutils-gdb.git"
+    remote="sourceware"
+    path="binutils-gdb"
+    revision="master" />
+
+<!-- GMP -->
+<project
+    name="gmp"
+    remote="savannah"
+    path="gmp"
+    revision="master" />
+
+<!-- GNU Make -->
+<project
+    name="make.git"
+    remote="savannah"
+    path="make"
+    revision="master" />
+
+<!-- GDB -->
+<project
+    name="binutils-gdb.git"
+    remote="sourceware"
+    path="gdb"
+    revision="master" />
     
 </manifest>
