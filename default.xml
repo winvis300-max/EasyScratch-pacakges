@@ -9,22 +9,28 @@
         name="sourceware"
         fetch="git://sourceware.org/git/" />
 
-    <!-- GitHub projeleri için varsayılan -->
+    <remote
+        name="savannah"
+        fetch="https://git.savannah.gnu.org/git/" />
+
     <default
         remote="github"
         revision="main" />
 
-    <!-- sudo -->
     <project
         name="sudo-project/sudo"
-        path="sudo"
-        revision="main" />
+        path="sudo" />
 
-    <!-- glibc -->
     <project
         name="glibc.git"
         remote="sourceware"
         path="glibc"
+        revision="master" />
+
+    <project
+        name="nano.git"
+        remote="savannah"
+        path="nano"
         revision="master" />
 
 </manifest>
