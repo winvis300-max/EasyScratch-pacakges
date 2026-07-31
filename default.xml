@@ -78,44 +78,49 @@
         revision="master" />
 
     <!-- man-db -->
-<project
-    name="man-db.git"
-    remote="savannah"
-    path="man-db"
-    revision="master" />
+    <project
+        name="man-db.git"
+        remote="savannah"
+        path="man-db"
+        revision="master" />
 
-<!-- Limine -->
-<project
-    name="limine-bootloader/limine"
-    path="limine"
-    revision="trunk" />
+    <!-- Limine -->
+    <project
+        name="limine-bootloader/limine"
+        path="limine"
+        revision="master" />
 
-<!-- GNU Binutils -->
-<project
-    name="binutils-gdb.git"
-    remote="sourceware"
-    path="binutils-gdb"
-    revision="master" />
+    <!-- GNU Binutils + GDB -->
+    <project
+        name="binutils-gdb.git"
+        remote="sourceware"
+        path="binutils-gdb"
+        revision="master" />
 
-<!-- GMP -->
-<project
-    name="gmp"
-    remote="savannah"
-    path="gmp"
-    revision="master" />
+    <!-- GMP -->
+    <project
+        name="gmp"
+        remote="savannah"
+        path="gmp"
+        revision="master" />
 
-<!-- GNU Make -->
-<project
-    name="make.git"
-    remote="savannah"
-    path="make"
-    revision="master" />
+    <!-- GNU Make -->
+    <project
+        name="make.git"
+        remote="savannah"
+        path="make"
+        revision="master" />
 
-<!-- GDB -->
-<project
-    name="binutils-gdb.git"
-    remote="sourceware"
-    path="gdb"
-    revision="master" />
-    
+    <!-- kmod -->
+    <project
+        name="kmod-project/kmod"
+        path="kmod"
+        revision="master" />
+
+    <!-- dracut -->
+    <project
+        name="dracutdevs/dracut"
+        path="dracut"
+        revision="master" />
+
 </manifest>
