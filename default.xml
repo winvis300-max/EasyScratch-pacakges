@@ -58,10 +58,10 @@
         path="util-linux"
         revision="master" />
 
-    <!-- LLVM + Clang -->
+    <!-- GCC -->
     <project
-        name="llvm/llvm-project"
-        path="llvm-project"
-        revision="main" />
+        name="gcc-mirror/gcc"
+        path="gcc"
+        revision="master" />
 
 </manifest>
