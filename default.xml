@@ -284,5 +284,10 @@
         path="eudev"
         revision="master" />
 
+        <!-- Chimera Linux utils -->
+    <project
+        name="chimera-linux/chimerautils"
+        path="chimerautils"
+        revision="master" />
 
 </manifest>
