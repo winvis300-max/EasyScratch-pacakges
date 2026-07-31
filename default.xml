@@ -16,7 +16,7 @@
         name="sourceware"
         fetch="git://sourceware.org/git/" />
 
-    <!-- Google Source -->
+    <!-- GoogleSource -->
     <remote
         name="googlesource"
         fetch="https://kernel.googlesource.com/pub/scm/utils/util-linux/" />
@@ -30,6 +30,12 @@
     <project
         name="sudo-project/sudo"
         path="sudo" />
+
+    <!-- GCC -->
+    <project
+        name="gcc-mirror/gcc"
+        path="gcc"
+        revision="master" />
 
     <!-- chimerautils -->
     <project
@@ -51,17 +57,18 @@
         path="nano"
         revision="master" />
 
+    <!-- GNU Bash -->
+    <project
+        name="bash.git"
+        remote="savannah"
+        path="bash"
+        revision="master" />
+
     <!-- util-linux -->
     <project
         name="util-linux"
         remote="googlesource"
         path="util-linux"
-        revision="master" />
-
-    <!-- GCC -->
-    <project
-        name="gcc-mirror/gcc"
-        path="gcc"
         revision="master" />
 
 </manifest>
