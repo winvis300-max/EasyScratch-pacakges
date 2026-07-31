@@ -37,6 +37,12 @@
         path="gcc"
         revision="master" />
 
+    <!-- shadow -->
+    <project
+        name="shadow-maint/shadow"
+        path="shadow"
+        revision="master" />
+
     <!-- chimerautils -->
     <project
         name="chimera-linux/chimerautils"
