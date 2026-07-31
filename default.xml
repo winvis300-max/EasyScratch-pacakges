@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- GitHub -->
     <remote
         name="github"
         fetch="https://github.com/" />
 
-    <remote
-        name="sourceware"
-        fetch="git://sourceware.org/git/" />
-
+    <!-- GNU Savannah -->
     <remote
         name="savannah"
         fetch="https://git.savannah.gnu.org/git/" />
 
+    <!-- Sourceware -->
+    <remote
+        name="sourceware"
+        fetch="git://sourceware.org/git/" />
+
+    <!-- Google Source -->
+    <remote
+        name="googlesource"
+        fetch="https://kernel.googlesource.com/pub/scm/utils/util-linux/" />
+
+    <!-- Varsayılan -->
     <default
         remote="github"
         revision="main" />
 
+    <!-- sudo -->
     <project
         name="sudo-project/sudo"
         path="sudo" />
 
+    <!-- chimerautils -->
     <project
         name="chimera-linux/chimerautils"
         path="chimerautils"
         revision="master" />
 
+    <!-- glibc -->
     <project
         name="glibc.git"
         remote="sourceware"
         path="glibc"
         revision="master" />
 
+    <!-- GNU nano -->
     <project
         name="nano.git"
         remote="savannah"
         path="nano"
+        revision="master" />
+
+    <!-- util-linux -->
+    <project
+        name="util-linux"
+        remote="googlesource"
+        path="util-linux"
         revision="master" />
 
 </manifest>
