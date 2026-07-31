@@ -22,6 +22,11 @@
         path="sudo" />
 
     <project
+        name="chimera-linux/chimerautils"
+        path="chimerautils"
+        revision="master" />
+
+    <project
         name="glibc.git"
         remote="sourceware"
         path="glibc"
