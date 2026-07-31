@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
@@ -31,10 +32,16 @@
         name="sudo-project/sudo"
         path="sudo" />
 
-    <!-- GCC -->
+    <!-- LLVM + Clang -->
     <project
-        name="gcc-mirror/gcc"
-        path="gcc"
+        name="llvm/llvm-project"
+        path="llvm-project"
+        revision="main" />
+
+    <!-- GNU GRUB -->
+    <project
+        name="rhboot/grub2"
+        path="grub2"
         revision="master" />
 
     <!-- shadow -->
@@ -84,24 +91,11 @@
         path="man-db"
         revision="master" />
 
-    <!-- Limine -->
-    <project
-        name="limine-bootloader/limine"
-        path="limine"
-        revision="master" />
-
     <!-- GNU Binutils + GDB -->
     <project
         name="binutils-gdb.git"
         remote="sourceware"
         path="binutils-gdb"
-        revision="master" />
-
-    <!-- GMP -->
-    <project
-        name="gmp"
-        remote="savannah"
-        path="gmp"
         revision="master" />
 
     <!-- GNU Make -->
@@ -115,12 +109,6 @@
     <project
         name="kmod-project/kmod"
         path="kmod"
-        revision="master" />
-
-    <!-- dracut -->
-    <project
-        name="dracutdevs/dracut"
-        path="dracut"
         revision="master" />
 
 </manifest>
