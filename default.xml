@@ -9,17 +9,22 @@
         name="sourceware"
         fetch="git://sourceware.org/git/" />
 
+    <!-- GitHub projeleri için varsayılan -->
     <default
         remote="github"
         revision="main" />
 
+    <!-- sudo -->
     <project
         name="sudo-project/sudo"
-        path="sudo" />
+        path="sudo"
+        revision="main" />
 
+    <!-- glibc -->
     <project
         name="glibc.git"
         remote="sourceware"
-        path="glibc" />
+        path="glibc"
+        revision="master" />
 
 </manifest>
