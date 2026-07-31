@@ -83,5 +83,11 @@
     remote="savannah"
     path="man-db"
     revision="master" />
+
+<!-- Limine -->
+<project
+    name="limine-bootloader/limine"
+    path="limine"
+    revision="trunk" />
     
 </manifest>
