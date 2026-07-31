@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote
+        name="github"
+        fetch="https://github.com/" />
+
+    <remote
+        name="sourceware"
+        fetch="git://sourceware.org/git/" />
+
+    <default
+        remote="github"
+        revision="main" />
+
+    <project
+        name="sudo-project/sudo"
+        path="sudo" />
+
+    <project
+        name="glibc.git"
+        remote="sourceware"
+        path="glibc" />
+
+</manifest>
