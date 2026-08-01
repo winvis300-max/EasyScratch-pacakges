@@ -290,4 +290,9 @@
         path="chimerautils"
         revision="master" />
 
+    <project
+        name="madler/zlib"
+        path="zlib"
+        revision="develop" />
+
 </manifest>
